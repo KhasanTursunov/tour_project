@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Fourthday from "@/components/Fourthday";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 import Secondday from "@/components/Secondday";
 import SecondHalfday from "@/components/SecondHalfday";
 import Seventhday from "@/components/Seventhday";
@@ -17,6 +18,7 @@ import Thirdday from "@/components/Thirdday";
 export default function Home() {
   return (
     <div>
+      <Navbar/>
       <Header/>
       <Hero/>
       <Firstday/>
