@@ -3,6 +3,7 @@ import { CarouselDemo } from "@/components/Carousel";
 import Eighthday from "@/components/Eighthday";
 import Fifthday from "@/components/Fifthday";
 import Firstday from "@/components/Firstday";
+import Footer from "@/components/Footer";
 import Fourthday from "@/components/Fourthday";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -27,6 +28,7 @@ export default function Home() {
       <Sixthday/>
       <Seventhday/>
       <Eighthday/>
+      <Footer/>
       
       {/* <AnimatedTestimonialsDemo/> */}
       {/* <CarouselDemo/> */}
